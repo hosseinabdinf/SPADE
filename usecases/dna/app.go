@@ -1,12 +1,13 @@
 package dna
 
 import (
-	"SPADE/usecases/models"
-	"SPADE/utils"
 	"fmt"
 	"log"
 	"os"
 	"path/filepath"
+
+	"github.com/hosseinabdinf/SPADE/usecases/models"
+	"github.com/hosseinabdinf/SPADE/utils"
 )
 
 // OpenDataset read the DNA files from dataset directory

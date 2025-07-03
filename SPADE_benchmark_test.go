@@ -1,10 +1,11 @@
 package SPADE
 
 import (
-	"SPADE/utils"
 	"fmt"
 	"math/big"
 	"testing"
+
+	"github.com/hosseinabdinf/SPADE/utils"
 )
 
 func BenchmarkSpade(b *testing.B) {

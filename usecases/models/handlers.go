@@ -1,12 +1,13 @@
 package models
 
 import (
-	pb "SPADE/spadeProto"
 	"database/sql"
 	"encoding/json"
 	"errors"
-	_ "github.com/mattn/go-sqlite3"
 	"math/big"
+
+	pb "github.com/hosseinabdinf/SPADE/spadeProto"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 type PBHandler interface {

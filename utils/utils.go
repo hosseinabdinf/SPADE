@@ -3,12 +3,13 @@ package utils
 import (
 	"bufio"
 	"fmt"
-	"google.golang.org/protobuf/proto"
 	"math/big"
 	"math/rand"
 	"os"
 	"path/filepath"
 	"strconv"
+
+	"google.golang.org/protobuf/proto"
 )
 
 const Port = 50505

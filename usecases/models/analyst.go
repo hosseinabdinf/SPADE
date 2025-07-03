@@ -1,16 +1,17 @@
 package models
 
 import (
-	"SPADE"
-	pb "SPADE/spadeProto"
-	"SPADE/utils"
 	"context"
 	"fmt"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
 	"log"
 	"math/big"
 	"time"
+
+	"github.com/hosseinabdinf/SPADE"
+	pb "github.com/hosseinabdinf/SPADE/spadeProto"
+	"github.com/hosseinabdinf/SPADE/utils"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/credentials/insecure"
 )
 
 type Analyst struct {

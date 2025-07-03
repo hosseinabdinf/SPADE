@@ -1,9 +1,10 @@
 package SPADE
 
 import (
-	"SPADE/utils"
 	"fmt"
 	"testing"
+
+	"github.com/hosseinabdinf/SPADE/utils"
 )
 
 func TestVanilla(t *testing.T) {

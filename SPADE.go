@@ -1,11 +1,12 @@
 package SPADE
 
 import (
-	"SPADE/utils"
 	"crypto/rand"
 	"fmt"
 	"log"
 	"math/big"
+
+	"github.com/hosseinabdinf/SPADE/utils"
 )
 
 type SPADE struct {

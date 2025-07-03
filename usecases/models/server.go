@@ -1,13 +1,9 @@
 package models
 
 import (
-	"SPADE"
-	pb "SPADE/spadeProto"
-	"SPADE/utils"
 	"context"
 	"errors"
 	"fmt"
-	"google.golang.org/grpc"
 	"log"
 	"math/big"
 	"net"
@@ -15,6 +11,12 @@ import (
 	"os/signal"
 	"sync"
 	"syscall"
+
+	pb "github.com/hosseinabdinf/SPADE/spadeProto"
+
+	"github.com/hosseinabdinf/SPADE"
+	"github.com/hosseinabdinf/SPADE/utils"
+	"google.golang.org/grpc"
 )
 
 // global variable for public parameters
