@@ -24,5 +24,5 @@ jobs:
       - name: Build
         run: go build -v ./...
 
-      - name: Test (excluding usecases)
-      - run: go test -v $(go list ./... | grep -v '/usecases')
+      - name: Test
+        run: go test -v $(go list ./... | grep -v '/usecases')
