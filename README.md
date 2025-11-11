@@ -15,6 +15,12 @@ To see two real-world applications of SPADE, please have a look at the usescases
 2. Be careful when defining the users' data vector using `make()`;
    This method assigns the **zero** value to the elements during initialization.
 
+## 🚀 Execution
+
+### Prerequisites
+
+- Go 1.21 or higher
+
 ## Changing the protobuf structure
 
 If you want to modify the protobuf structure, please first change the following file:
@@ -32,4 +38,5 @@ and then run the proto compiler command as follows to generate the new protobuf 
 ## Benchmarking Instruction
 
     go test -benchtime=10x -bench=BenchmarkSpade -benchmem -run=^$
+
 
