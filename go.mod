@@ -3,7 +3,7 @@ module github.com/hosseinabdinf/SPADE
 go 1.24.0
 
 require (
-	github.com/mattn/go-sqlite3 v1.14.24
+	github.com/mattn/go-sqlite3 v1.14.32
 	google.golang.org/grpc v1.70.0
 	google.golang.org/protobuf v1.36.5
 )
