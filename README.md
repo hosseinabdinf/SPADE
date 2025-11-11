@@ -1,9 +1,11 @@
 # SPADE: **S**elective and **PA**rtial **DE**cryption using Functional Encryption
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hosseinabdinf/SPADE)](https://goreportcard.com/report/github.com/hosseinabdinf/SPADE)
 
 SPADE is an FE-based scheme that enables running selective and partial decryption queries over
 vectors of ciphertexts.
 
-To see two real-world applications of SPADE please check the usescases directory.
+To see two real-world applications of SPADE, please have a look at the usescases directory.
 
 ## Notes
 
@@ -11,7 +13,7 @@ To see two real-world applications of SPADE please check the usescases directory
    allowed for each plaintext vector. Users must encrypt their data as a vector of integers,
    ensuring that none of the values are **zero**.
 2. Be careful when defining the users' data vector using `make()`;
-   this method assigns the **zero** value to the elements during initialization.
+   This method assigns the **zero** value to the elements during initialization.
 
 ## Changing the protobuf structure
 
