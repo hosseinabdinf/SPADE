@@ -1,4 +1,5 @@
 # SPADE: **S**elective and **PA**rtial **DE**cryption using Functional Encryption
+[![Go](https://github.com/hosseinabdinf/SPADE/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/hosseinabdinf/SPADE/actions/workflows/go.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Go Report Card](https://goreportcard.com/badge/github.com/hosseinabdinf/SPADE)](https://goreportcard.com/report/github.com/hosseinabdinf/SPADE)
 
